@@ -5,7 +5,7 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>E9FF248C-EF9A-4F63-B40C-26AF5F7DA214</string>
+	<string>B3E11779-066F-4C52-ACD2-F3DB59011F09</string>
 	<key>IDESourceControlProjectName</key>
 	<string>macAlloc</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
@@ -34,7 +34,7 @@
 			<key>IDESourceControlWCCIdentifierKey</key>
 			<string>5FD7D382-D02F-4718-8B6E-118C5401D6F6</string>
 			<key>IDESourceControlWCCName</key>
-			<string>MyRepo</string>
+			<string>macAlloc</string>
 		</dict>
 	</array>
 </dict>

@@ -7,8 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D341AC9182C1B4A0014EDDB /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D341AC8182C1B4A0014EDDB /* main.cpp */; };
-		5D341ACB182C1B4A0014EDDB /* macAlloc.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5D341ACA182C1B4A0014EDDB /* macAlloc.1 */; };
+		5D341AD3182C1BB00014EDDB /* classAlloc.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5D341AD2182C1BB00014EDDB /* classAlloc.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +17,6 @@
 			dstPath = /usr/share/man/man1/;
 			dstSubfolderSpec = 0;
 			files = (
-				5D341ACB182C1B4A0014EDDB /* macAlloc.1 in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 		};
@@ -26,8 +24,8 @@
 
 /* Begin PBXFileReference section */
 		5D341AC5182C1B4A0014EDDB /* macAlloc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = macAlloc; sourceTree = BUILT_PRODUCTS_DIR; };
-		5D341AC8182C1B4A0014EDDB /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		5D341ACA182C1B4A0014EDDB /* macAlloc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = macAlloc.1; sourceTree = "<group>"; };
+		5D341AD1182C1BA00014EDDB /* classAlloc.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = classAlloc.h; sourceTree = "<group>"; };
+		5D341AD2182C1BB00014EDDB /* classAlloc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = classAlloc.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +58,8 @@
 		5D341AC7182C1B4A0014EDDB /* macAlloc */ = {
 			isa = PBXGroup;
 			children = (
-				5D341AC8182C1B4A0014EDDB /* main.cpp */,
-				5D341ACA182C1B4A0014EDDB /* macAlloc.1 */,
+				5D341AD1182C1BA00014EDDB /* classAlloc.h */,
+				5D341AD2182C1BB00014EDDB /* classAlloc.cpp */,
 			);
 			path = macAlloc;
 			sourceTree = "<group>";
@@ -117,7 +115,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5D341AC9182C1B4A0014EDDB /* main.cpp in Sources */,
+				5D341AD3182C1BB00014EDDB /* classAlloc.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
