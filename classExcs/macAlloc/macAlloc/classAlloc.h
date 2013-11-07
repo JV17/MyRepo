@@ -9,16 +9,29 @@
 #ifndef macAlloc_classAlloc_h
 #define macAlloc_classAlloc_h
 
-#include<iostream>
+#include <iostream>
 
-class Alloc{
-    int size;
-    static int Counter;
-    
-public:
-    Alloc();
-    Alloc(int size, int Counter, const Alloc*, const Alloc&);
-    ~Alloc();
+using namespace std;
+
+class MemCheck
+{
+    static unsigned int cnt;
+    class Alert
+    {
+        ~Alert()
+        {
+            if(cnt != 0u)
+            {
+                int a;
+                std::cout << "Warning: " << cnt << " objects were not deallocated" << std::endl;
+                std::cin >> a;
+            }
+        }
+    };
+    static Alert alert;
+protected:
+    MemCheck() {cnt++;}
+    virtual ~MemCheck() {cnt--;}
 };
 
 
