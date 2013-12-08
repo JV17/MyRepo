@@ -32,7 +32,7 @@ std::ostream& operator<<(std::ostream& out, const Bits& z){
 }
 
 int main(){
-    unsigned int a = 0xf0f0f0f0;
+    unsigned int a = 0xf0f0f0f0 | -1;
     Bits B(a);
     std::cout << (unsigned int)B << ": " << B << std::endl;
 
