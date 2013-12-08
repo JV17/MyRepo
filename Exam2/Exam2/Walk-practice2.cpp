@@ -1,5 +1,6 @@
-#include <string.h>
-#include <iostream.h>
+#include <string>
+#include <iostream>
+using namespace std;
 
 template <class X, class Y>
 X &operator+=(X &x, const Y &y) { return x = x + y; }
