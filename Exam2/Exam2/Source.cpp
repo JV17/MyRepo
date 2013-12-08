@@ -3,7 +3,7 @@
 #include <vector>
 
 #define NEWLINE std::cout << std::endl
-#define QN(n,m) std::cout << "Part " << n << " [" << m << " Marks}---------" << std::endl
+#define QN(n,m) std::cout << "Part " << n << " [" << m << " Marks]---------" << std::endl
 
 enum Type { FUSED = 1, WATER, ELECTRIC, FIRE, GRASS };
 
@@ -11,7 +11,7 @@ class Exception{
 public:
     char msg[100];
     Exception() {}
-    Exception(char* a) { strcpy(msg, a); }
+    Exception(char* a) { strcpy_s(msg, a); }
     char* operator*() { return msg; }
 };
 
@@ -89,7 +89,7 @@ void cheer(std::vector<std::string> w){
 }
 
 void confuse(){
-    unsigned char victim = 255u;
+    unsigned int victim = 255u;
     victim = victim << 3;
     victim = victim >> 2;
     victim = (170u >> 1) & victim;
@@ -129,6 +129,7 @@ void juggle(){
         std::cout << "Base " << std::endl;
     }
 }
+
 
 int main(){
     auto i = 10u;
