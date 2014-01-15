@@ -48,6 +48,25 @@ int main(){
     0000 0001 << 7 //answer of above
     1000 0000 >> 1 //answer of above
     1100 0000 >> 6 //answer of above
-    1111 1111      //answer of above
+    1111 1111      //answer of above    
+
+    //virtual ctor diamond
+    class A{
+        int a;
+        A(){ a = 0; }
+        A(int i){ a = i; }
+    };
+    class B: virtual public A{
+        int b;
+        B() : A(10), b(3){}
+    };
+    class C : virtual public A{
+        int c;
+        C() : c(3), A(5) {}
+    };
+    class D : public B, public C{
+        int d;
+        D() : d(12), A(17) {}
+    };
     return 0;
 }
