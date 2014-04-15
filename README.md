@@ -1,4 +1,4 @@
 MyRepo
 ======
 
-Just practicing in github
+Just sharing some of programming approach with you! :)
