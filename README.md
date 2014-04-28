@@ -1,4 +1,4 @@
-MyRepo
-======
+MyRepo - Jorge Valbuena
+=======================
 
-Just practicing in github
+This Repository is intended to just learn more of the different features and use of Github.
