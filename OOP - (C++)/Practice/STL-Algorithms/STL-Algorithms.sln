@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30110.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "STL-Algorithms", "STL-Algorithms\STL-Algorithms.vcxproj", "{9B0C4CC6-966A-46C3-9878-54F3DECA70DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B0C4CC6-966A-46C3-9878-54F3DECA70DF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9B0C4CC6-966A-46C3-9878-54F3DECA70DF}.Debug|Win32.Build.0 = Debug|Win32
+		{9B0C4CC6-966A-46C3-9878-54F3DECA70DF}.Release|Win32.ActiveCfg = Release|Win32
+		{9B0C4CC6-966A-46C3-9878-54F3DECA70DF}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
