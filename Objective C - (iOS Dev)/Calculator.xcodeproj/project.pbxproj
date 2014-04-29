@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5D68A75318FEEEA900E583CB /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 5D68A75218FEEEA900E583CB /* calculator.png */; };
 		5D7DEE6418FE3BFF004424EB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7DEE6318FE3BFF004424EB /* Foundation.framework */; };
 		5D7DEE6618FE3BFF004424EB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7DEE6518FE3BFF004424EB /* CoreGraphics.framework */; };
 		5D7DEE6818FE3BFF004424EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7DEE6718FE3BFF004424EB /* UIKit.framework */; };
@@ -22,6 +21,7 @@
 		5D7DEE8518FE3BFF004424EB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7DEE6718FE3BFF004424EB /* UIKit.framework */; };
 		5D7DEE8D18FE3BFF004424EB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D7DEE8B18FE3BFF004424EB /* InfoPlist.strings */; };
 		5D7DEE8F18FE3BFF004424EB /* dummycalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D7DEE8E18FE3BFF004424EB /* dummycalTests.m */; };
+		5DE24218190F435B00789EE5 /* calculator.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DE24217190F435B00789EE5 /* calculator.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +35,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5D68A75218FEEEA900E583CB /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = ../../../Pictures/calculator.png; sourceTree = "<group>"; };
-		5D7DEE6018FE3BFF004424EB /* dummycal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dummycal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7DEE6018FE3BFF004424EB /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7DEE6318FE3BFF004424EB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		5D7DEE6518FE3BFF004424EB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		5D7DEE6718FE3BFF004424EB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5D7DEE6B18FE3BFF004424EB /* dummycal-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dummycal-Info.plist"; sourceTree = "<group>"; };
+		5D7DEE6B18FE3BFF004424EB /* Calculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Calculator-Info.plist"; sourceTree = "<group>"; };
 		5D7DEE6D18FE3BFF004424EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D7DEE6F18FE3BFF004424EB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5D7DEE7118FE3BFF004424EB /* dummycal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "dummycal-Prefix.pch"; sourceTree = "<group>"; };
+		5D7DEE7118FE3BFF004424EB /* Calculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Calculator-Prefix.pch"; sourceTree = "<group>"; };
 		5D7DEE7218FE3BFF004424EB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5D7DEE7318FE3BFF004424EB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5D7DEE7618FE3BFF004424EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5D7DEE7818FE3BFF004424EB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		5D7DEE7918FE3BFF004424EB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		5D7DEE7B18FE3BFF004424EB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5D7DEE8118FE3BFF004424EB /* dummycalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dummycalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D7DEE8118FE3BFF004424EB /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D7DEE8218FE3BFF004424EB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5D7DEE8A18FE3BFF004424EB /* dummycalTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "dummycalTests-Info.plist"; sourceTree = "<group>"; };
+		5D7DEE8A18FE3BFF004424EB /* CalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		5D7DEE8C18FE3BFF004424EB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5D7DEE8E18FE3BFF004424EB /* dummycalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = dummycalTests.m; sourceTree = "<group>"; };
+		5DE24217190F435B00789EE5 /* calculator.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = calculator.png; path = ../../../../Pictures/calculator.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		5D68A75118FEEE6100E583CB /* Images */ = {
 			isa = PBXGroup;
 			children = (
-				5D68A75218FEEEA900E583CB /* calculator.png */,
+				5DE24217190F435B00789EE5 /* calculator.png */,
 			);
 			name = Images;
 			sourceTree = "<group>";
@@ -92,8 +92,8 @@
 		5D7DEE5718FE3BFF004424EB = {
 			isa = PBXGroup;
 			children = (
-				5D7DEE6918FE3BFF004424EB /* dummycal */,
-				5D7DEE8818FE3BFF004424EB /* dummycalTests */,
+				5D7DEE6918FE3BFF004424EB /* Calculator */,
+				5D7DEE8818FE3BFF004424EB /* CalculatorTests */,
 				5D7DEE6218FE3BFF004424EB /* Frameworks */,
 				5D7DEE6118FE3BFF004424EB /* Products */,
 			);
@@ -102,8 +102,8 @@
 		5D7DEE6118FE3BFF004424EB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5D7DEE6018FE3BFF004424EB /* dummycal.app */,
-				5D7DEE8118FE3BFF004424EB /* dummycalTests.xctest */,
+				5D7DEE6018FE3BFF004424EB /* Calculator.app */,
+				5D7DEE8118FE3BFF004424EB /* CalculatorTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -119,7 +119,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5D7DEE6918FE3BFF004424EB /* dummycal */ = {
+		5D7DEE6918FE3BFF004424EB /* Calculator */ = {
 			isa = PBXGroup;
 			children = (
 				5D68A75118FEEE6100E583CB /* Images */,
@@ -131,33 +131,35 @@
 				5D7DEE7B18FE3BFF004424EB /* Images.xcassets */,
 				5D7DEE6A18FE3BFF004424EB /* Supporting Files */,
 			);
+			name = Calculator;
 			path = dummycal;
 			sourceTree = "<group>";
 		};
 		5D7DEE6A18FE3BFF004424EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D7DEE6B18FE3BFF004424EB /* dummycal-Info.plist */,
+				5D7DEE6B18FE3BFF004424EB /* Calculator-Info.plist */,
 				5D7DEE6C18FE3BFF004424EB /* InfoPlist.strings */,
 				5D7DEE6F18FE3BFF004424EB /* main.m */,
-				5D7DEE7118FE3BFF004424EB /* dummycal-Prefix.pch */,
+				5D7DEE7118FE3BFF004424EB /* Calculator-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5D7DEE8818FE3BFF004424EB /* dummycalTests */ = {
+		5D7DEE8818FE3BFF004424EB /* CalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
 				5D7DEE8E18FE3BFF004424EB /* dummycalTests.m */,
 				5D7DEE8918FE3BFF004424EB /* Supporting Files */,
 			);
+			name = CalculatorTests;
 			path = dummycalTests;
 			sourceTree = "<group>";
 		};
 		5D7DEE8918FE3BFF004424EB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5D7DEE8A18FE3BFF004424EB /* dummycalTests-Info.plist */,
+				5D7DEE8A18FE3BFF004424EB /* CalculatorTests-Info.plist */,
 				5D7DEE8B18FE3BFF004424EB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
@@ -166,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5D7DEE5F18FE3BFF004424EB /* dummycal */ = {
+		5D7DEE5F18FE3BFF004424EB /* Calculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D7DEE9218FE3BFF004424EB /* Build configuration list for PBXNativeTarget "dummycal" */;
+			buildConfigurationList = 5D7DEE9218FE3BFF004424EB /* Build configuration list for PBXNativeTarget "Calculator" */;
 			buildPhases = (
 				5D7DEE5C18FE3BFF004424EB /* Sources */,
 				5D7DEE5D18FE3BFF004424EB /* Frameworks */,
@@ -178,14 +180,14 @@
 			);
 			dependencies = (
 			);
-			name = dummycal;
+			name = Calculator;
 			productName = dummycal;
-			productReference = 5D7DEE6018FE3BFF004424EB /* dummycal.app */;
+			productReference = 5D7DEE6018FE3BFF004424EB /* Calculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		5D7DEE8018FE3BFF004424EB /* dummycalTests */ = {
+		5D7DEE8018FE3BFF004424EB /* CalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5D7DEE9518FE3BFF004424EB /* Build configuration list for PBXNativeTarget "dummycalTests" */;
+			buildConfigurationList = 5D7DEE9518FE3BFF004424EB /* Build configuration list for PBXNativeTarget "CalculatorTests" */;
 			buildPhases = (
 				5D7DEE7D18FE3BFF004424EB /* Sources */,
 				5D7DEE7E18FE3BFF004424EB /* Frameworks */,
@@ -196,9 +198,9 @@
 			dependencies = (
 				5D7DEE8718FE3BFF004424EB /* PBXTargetDependency */,
 			);
-			name = dummycalTests;
+			name = CalculatorTests;
 			productName = dummycalTests;
-			productReference = 5D7DEE8118FE3BFF004424EB /* dummycalTests.xctest */;
+			productReference = 5D7DEE8118FE3BFF004424EB /* CalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -215,7 +217,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 5D7DEE5B18FE3BFF004424EB /* Build configuration list for PBXProject "dummycal" */;
+			buildConfigurationList = 5D7DEE5B18FE3BFF004424EB /* Build configuration list for PBXProject "Calculator" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -228,8 +230,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5D7DEE5F18FE3BFF004424EB /* dummycal */,
-				5D7DEE8018FE3BFF004424EB /* dummycalTests */,
+				5D7DEE5F18FE3BFF004424EB /* Calculator */,
+				5D7DEE8018FE3BFF004424EB /* CalculatorTests */,
 			);
 		};
 /* End PBXProject section */
@@ -242,7 +244,7 @@
 				5D7DEE7C18FE3BFF004424EB /* Images.xcassets in Resources */,
 				5D7DEE6E18FE3BFF004424EB /* InfoPlist.strings in Resources */,
 				5D7DEE7718FE3BFF004424EB /* Main.storyboard in Resources */,
-				5D68A75318FEEEA900E583CB /* calculator.png in Resources */,
+				5DE24218190F435B00789EE5 /* calculator.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +282,7 @@
 /* Begin PBXTargetDependency section */
 		5D7DEE8718FE3BFF004424EB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5D7DEE5F18FE3BFF004424EB /* dummycal */;
+			target = 5D7DEE5F18FE3BFF004424EB /* Calculator */;
 			targetProxy = 5D7DEE8618FE3BFF004424EB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -389,9 +391,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "dummycal/dummycal-Prefix.pch";
-				INFOPLIST_FILE = "dummycal/dummycal-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "dummycal/Calculator-Prefix.pch";
+				INFOPLIST_FILE = "dummycal/Calculator-Info.plist";
+				PRODUCT_NAME = Calculator;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -402,9 +404,9 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "dummycal/dummycal-Prefix.pch";
-				INFOPLIST_FILE = "dummycal/dummycal-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "dummycal/Calculator-Prefix.pch";
+				INFOPLIST_FILE = "dummycal/Calculator-Info.plist";
+				PRODUCT_NAME = Calculator;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -424,8 +426,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "dummycalTests/dummycalTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "dummycalTests/CalculatorTests-Info.plist";
+				PRODUCT_NAME = CalculatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -442,8 +444,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "dummycal/dummycal-Prefix.pch";
-				INFOPLIST_FILE = "dummycalTests/dummycalTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "dummycalTests/CalculatorTests-Info.plist";
+				PRODUCT_NAME = CalculatorTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -452,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5D7DEE5B18FE3BFF004424EB /* Build configuration list for PBXProject "dummycal" */ = {
+		5D7DEE5B18FE3BFF004424EB /* Build configuration list for PBXProject "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D7DEE9018FE3BFF004424EB /* Debug */,
@@ -461,7 +463,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D7DEE9218FE3BFF004424EB /* Build configuration list for PBXNativeTarget "dummycal" */ = {
+		5D7DEE9218FE3BFF004424EB /* Build configuration list for PBXNativeTarget "Calculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D7DEE9318FE3BFF004424EB /* Debug */,
@@ -470,7 +472,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5D7DEE9518FE3BFF004424EB /* Build configuration list for PBXNativeTarget "dummycalTests" */ = {
+		5D7DEE9518FE3BFF004424EB /* Build configuration list for PBXNativeTarget "CalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5D7DEE9618FE3BFF004424EB /* Debug */,

@@ -16,8 +16,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D7DEE5F18FE3BFF004424EB"
                BuildableName = "dummycal.app"
-               BlueprintName = "dummycal"
-               ReferencedContainer = "container:dummycal.xcodeproj">
+               BlueprintName = "Calculator"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -34,8 +34,8 @@
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "5D7DEE8018FE3BFF004424EB"
                BuildableName = "dummycalTests.xctest"
-               BlueprintName = "dummycalTests"
-               ReferencedContainer = "container:dummycal.xcodeproj">
+               BlueprintName = "CalculatorTests"
+               ReferencedContainer = "container:Calculator.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -44,8 +44,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D7DEE5F18FE3BFF004424EB"
             BuildableName = "dummycal.app"
-            BlueprintName = "dummycal"
-            ReferencedContainer = "container:dummycal.xcodeproj">
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -63,8 +63,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D7DEE5F18FE3BFF004424EB"
             BuildableName = "dummycal.app"
-            BlueprintName = "dummycal"
-            ReferencedContainer = "container:dummycal.xcodeproj">
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -81,8 +81,8 @@
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "5D7DEE5F18FE3BFF004424EB"
             BuildableName = "dummycal.app"
-            BlueprintName = "dummycal"
-            ReferencedContainer = "container:dummycal.xcodeproj">
+            BlueprintName = "Calculator"
+            ReferencedContainer = "container:Calculator.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
