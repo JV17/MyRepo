@@ -1,6 +1,6 @@
 #MyCal - iPad Calculator for iOS7
 
-
+ 
 This is my first encounter in Objective-C and just for fun, I decided to create or try to simulate the native iOS7 iPhone Calculator but for iPad.
 
 ####[Take a look at it in action!](http://jorgedeveloper.com/blog/?p=112)
