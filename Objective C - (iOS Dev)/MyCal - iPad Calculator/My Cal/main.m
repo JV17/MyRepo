@@ -1,8 +1,8 @@
 //
 //  main.m
-//  IpadCalculator
+//  My Cal
 //
-//  Created by Jorge Valbuena on 2014-04-29.
+//  Created by Jorge Valbuena on 2014-05-15.
 //  Copyright (c) 2014 Jorge Valbuena. All rights reserved.
 //
 

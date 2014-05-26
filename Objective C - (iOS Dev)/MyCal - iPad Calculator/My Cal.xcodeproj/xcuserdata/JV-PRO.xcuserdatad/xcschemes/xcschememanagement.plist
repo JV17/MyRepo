@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>IpadCalculator.xcscheme</key>
+		<key>My Cal.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>5DED3693190F6B270079B937</key>
+		<key>5D1C4B981925621600FB3CA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>5DED36B4190F6B270079B937</key>
+		<key>5D1C4BB91925621600FB3CA4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

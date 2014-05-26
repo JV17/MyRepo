@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5DED3693190F6B270079B937"
-               BuildableName = "IpadCalculator.app"
-               BlueprintName = "IpadCalculator"
-               ReferencedContainer = "container:IpadCalculator.xcodeproj">
+               BlueprintIdentifier = "5D1C4B981925621600FB3CA4"
+               BuildableName = "My Cal.app"
+               BlueprintName = "My Cal"
+               ReferencedContainer = "container:My Cal.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -32,20 +32,20 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5DED36B4190F6B270079B937"
-               BuildableName = "IpadCalculatorTests.xctest"
-               BlueprintName = "IpadCalculatorTests"
-               ReferencedContainer = "container:IpadCalculator.xcodeproj">
+               BlueprintIdentifier = "5D1C4BB91925621600FB3CA4"
+               BuildableName = "My CalTests.xctest"
+               BlueprintName = "My CalTests"
+               ReferencedContainer = "container:My Cal.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5DED3693190F6B270079B937"
-            BuildableName = "IpadCalculator.app"
-            BlueprintName = "IpadCalculator"
-            ReferencedContainer = "container:IpadCalculator.xcodeproj">
+            BlueprintIdentifier = "5D1C4B981925621600FB3CA4"
+            BuildableName = "My Cal.app"
+            BlueprintName = "My Cal"
+            ReferencedContainer = "container:My Cal.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -61,10 +61,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5DED3693190F6B270079B937"
-            BuildableName = "IpadCalculator.app"
-            BlueprintName = "IpadCalculator"
-            ReferencedContainer = "container:IpadCalculator.xcodeproj">
+            BlueprintIdentifier = "5D1C4B981925621600FB3CA4"
+            BuildableName = "My Cal.app"
+            BlueprintName = "My Cal"
+            ReferencedContainer = "container:My Cal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -79,10 +79,10 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5DED3693190F6B270079B937"
-            BuildableName = "IpadCalculator.app"
-            BlueprintName = "IpadCalculator"
-            ReferencedContainer = "container:IpadCalculator.xcodeproj">
+            BlueprintIdentifier = "5D1C4B981925621600FB3CA4"
+            BuildableName = "My Cal.app"
+            BlueprintName = "My Cal"
+            ReferencedContainer = "container:My Cal.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

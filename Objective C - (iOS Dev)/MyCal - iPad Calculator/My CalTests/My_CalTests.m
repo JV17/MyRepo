@@ -1,18 +1,18 @@
 //
-//  IpadCalculatorTests.m
-//  IpadCalculatorTests
+//  My_CalTests.m
+//  My CalTests
 //
-//  Created by Jorge Valbuena on 2014-04-29.
+//  Created by Jorge Valbuena on 2014-05-15.
 //  Copyright (c) 2014 Jorge Valbuena. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
 
-@interface IpadCalculatorTests : XCTestCase
+@interface My_CalTests : XCTestCase
 
 @end
 
-@implementation IpadCalculatorTests
+@implementation My_CalTests
 
 - (void)setUp
 {
