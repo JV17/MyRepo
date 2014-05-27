@@ -5,7 +5,7 @@ This Repository is intended to just learn more of the different features and use
 
 Also, to share some of my school and personal work. 
 
-###You will be able to find,
+###About,
 *	Personal projects in different programming languages.
 *	Examples where I try to explain who some programming concepts work.
 *	Assignments from some of my different programming subjects.
