@@ -17,4 +17,6 @@ Also, I must say this my first encounter in Objective-C, so positive feedbeck or
 	*	Negative to Positive and vise versa
 	*	And a ton of checks which allows to simulate the iOS Calculator	
 
+Don't forget to visit **[My Website!](http://jorgedeveloper.com)** and **[My Blog!](http://jorgedeveloper.com/blog/)**
+
 ####Thanks for visiting my repository...

@@ -21,4 +21,6 @@ In this repository, I will be sharing with you some of my projects and practice 
 	*	Template.
 *	OOP344 Test Prep, just some small practicing of different C++ concepts. 
 
+Don't forget to visit **[My Website!](http://jorgedeveloper.com)** and **[My Blog!](http://jorgedeveloper.com/blog/)**
+
 ####Thanks for visiting my repository...
