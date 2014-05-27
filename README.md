@@ -14,6 +14,6 @@ Also, to share some of my school and personal work.
 
 I hope it is helpful to others and, you find it interesting. Cheers!
 
-####[My Website!](http://jorgedeveloper.com) and [My Blog!](http://jorgedeveloper.com/blog/)
+Don't forget to visit **[My Website!](http://jorgedeveloper.com)** and **[My Blog!](http://jorgedeveloper.com/blog/)**
 
 ####Thanks for visiting my repository...
