@@ -20,3 +20,5 @@ In this repository, I will be sharing with you some of my projects and practice 
 	*	Macro.
 	*	Template.
 *	OOP344 Test Prep, just some small practicing of different C++ concepts. 
+
+####Thanks for visiting my repository...
