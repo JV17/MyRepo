@@ -93,10 +93,10 @@ int main(int argc, const char * argv[]) {
     for(int x = 0; x < SIZE; x++)
     {
         myList[x].push_front(x);
-        myList[x].push_front(x+1);
-        myList[x].push_front(x+2);
-        myList[x].push_front(x+3);
-        myList[x].push_front(x+4);
+        myList[x].push_front(x*3);
+        myList[x].push_front(x*5);
+        myList[x].push_front(x*7);
+        myList[x].push_front(x*9);
     }
     
     cout << "\n***** Before sorting values! *****\n" << endl;
@@ -106,7 +106,7 @@ int main(int argc, const char * argv[]) {
         cout << "list[" << x << "]: ";
         for (list<int>::iterator it = myList[x].begin(); it != myList[x].end(); ++it)
         {
-            cout << *it;
+            cout << *it << " ";
         }
         cout << "" << endl;
     }
@@ -123,7 +123,7 @@ int main(int argc, const char * argv[]) {
         cout << "list[" << x << "]: ";
         for (list<int>::iterator it = myList[x].begin(); it != myList[x].end(); ++it)
         {
-            cout << *it;
+            cout << *it << " ";
         }
         cout << "" << endl;
     }
