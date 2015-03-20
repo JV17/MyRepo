@@ -7,9 +7,9 @@
 //
 
 #include <iostream>
-#include <string>
 #include <list>
 #include <vector>
+#include <string>
 #include <algorithm>
 
 using namespace std;
@@ -17,39 +17,39 @@ using namespace std;
 const int ROWS = 3;
 const int SIZE = 5;
 
-template <typename T>
 class Node {
-    T _data;
+    int _data;
     Node *_next;
 public:
-    Node(T d, Node *n) : _data(d), _next(n) {}
-    T data() const { return _data; }
-    void setData(T d) { _data = d; }
+    Node(int d, Node *n) : _data(d), _next(n) {}
+    int data() const { return _data; }
+    void setData(int d) { _data = d; }
     Node *next() const { return _next; }
+    void setNext(Node *n) { _next = n; }
 };
 
-
-template <typename T>
 class LinkList {
-    Node<T> *head;
+    Node *head;
 public:
-    LinkList() : head(NULL) {}
+    LinkList() : head(nullptr) {}
     
     ~LinkList() {
-        while (Node<T> *p = head) {
+        while (Node *p = head) {
             head = head->next();
             delete p;
         }
     }
     
-    void push_front(T d) {
-        head = new (nothrow) Node<T>(d, head);
+    Node *getHead() const { return head; }
+    
+    void push_front(int d) {
+        head = new (nothrow) Node(d, head);
     }
     
-    T pop_front() {
-        T data;
+    int pop_front() {
+        int data;
         if(head) {
-            Node<T> *p = head;
+            Node *p = head;
             data = head->data();
             head = head->next();
             delete p;
@@ -57,140 +57,130 @@ public:
         return data;
     }
     
-    T getData() const {
-        return head->data();
-    }
-    
-    void setData(T d) {
-        if(head)
-            head->setData(d);
+    void print_list(int x) {
+        cout << "list[" << x << "]:";
+        for (Node *index = head; index->next() != nullptr; index = index->next()) {
+            cout << index->data() << " ";
+            x++;
+        }
+        cout << endl;
     }
     
     bool empty() {
-        return head == NULL;
+        return head == nullptr;
     }
     
+    void sort_ascending() {
+        for (Node *index = head; index->next() != nullptr; index = index->next()) {
+            for (Node *selection = index->next(); selection != nullptr; selection = selection->next()) {
+                if (index->data() < selection->data()) {
+                    swap(index, selection);
+                }
+            }
+        }
+    }
+    
+    void sort_descending() {
+        for (Node *index = head; index->next() != nullptr; index = index->next()) {
+            for (Node *selection = index->next(); selection != nullptr; selection = selection->next()) {
+                if (index->data() > selection->data()) {
+                    swap(index, selection);
+                }
+            }
+        }
+    }
+    
+    void swap(Node *a, Node *b) {
+        int tmp;
+        tmp = a->data();
+        a->setData(b->data());
+        b->setData(tmp);
+    }
 };
 
-int *sortList(int arr[]) {
-    
-    return arr;
-}
 
-bool myfunction (int i,int j) { return (i<j); }
-
+// helper class for string compare without case sensitive
 struct myclass {
     bool operator() (int i,int j) { return (i<j);}
 } myobject;
 
+
 int main(int argc, const char * argv[]) {
     // insert code here...
     cout << "Hello, World!\n";
+    
+    LinkList a[SIZE];
+    
+    // create an array of linked lists
+    for(int x = 0; x < SIZE; x++) {
+        a[x].push_front(rand() % 100);
+        a[x].push_front(rand() % 100);
+        a[x].push_front(rand() % 100);
+        a[x].push_front(rand() % 100);
+        a[x].push_front(rand() % 100);
+    }
+    
+    cout << "\nunsorted list" << endl;
 
-    list<int> myList[SIZE];
-    list<int> tmp;
-    
-    for(int x = 0; x < SIZE; x++)
-    {
-        myList[x].push_front(x);
-        myList[x].push_front(x*3);
-        myList[x].push_front(x*5);
-        myList[x].push_front(x*7);
-        myList[x].push_front(x*9);
+    // printing all data within lists
+    for(int y = 0; y < SIZE; y++) {
+        a[y].print_list(y+1);
     }
     
-    cout << "\n***** Before sorting values! *****\n" << endl;
-    
-    for(int x = 0; x < SIZE; x++)
-    {
-        cout << "list[" << x << "]: ";
-        for (list<int>::iterator it = myList[x].begin(); it != myList[x].end(); ++it)
-        {
-            cout << *it << " ";
-        }
-        cout << "" << endl;
+    // sorting list
+    for(int i = 0; i < SIZE; i++) {
+        a[i].sort_descending();
     }
     
-    cout << "\n***** After sorting values! *****\n" << endl;
+    cout << "\nsorted list" << endl;
     
-    for(int x = 0; x < SIZE; x++)
-    {
-        myList[x].sort();
+    // printing all data within lists
+    for(int y = 0; y < SIZE; y++) {
+        a[y].print_list(y+1);
     }
-    
-    for(int x = 0; x < SIZE; x++)
-    {
-        cout << "list[" << x << "]: ";
-        for (list<int>::iterator it = myList[x].begin(); it != myList[x].end(); ++it)
-        {
-            cout << *it << " ";
-        }
-        cout << "" << endl;
-    }
-    
-    
-//    int myints[] = {32,71,12,45,26,80,53,33};
-//    vector<int> myvector (myints, myints+8);               // 32 71 12 45 26 80 53 33
-    
-    // using default comparison (operator <):
-//    sort (myvector.begin(), myvector.begin()+4);           //(12 32 45 71)26 80 53 33
-    
-    // using function as comp
-//    sort (myvector.begin()+4, myvector.end(), myfunction); // 12 32 45 71(26 33 53 80)
-    
-    // using object as comp
-//    sort (myvector.begin(), myvector.end(), myobject);     //(12 26 32 33 45 53 71 80)
-    
-    // print out content:
-//    cout << "myvector contains:";
-//    for (vector<int>::iterator it=myvector.begin(); it!=myvector.end(); ++it)
-//        cout << ' ' << *it;
-//    cout << '\n';
-    
-    
-//    List<int> a[ROWS][SIZE];
+
+//    list<int> myList[SIZE];
+//    list<int> tmp;
 //    
-//    for(int y = 0; y < ROWS; y++)
+//    for(int x = 0; x < SIZE; x++)
 //    {
-//        for(int x = 0; x < SIZE; x++)
-//        {
-//            a[y][x].push_front(x);
-//            a[y][x].push_front(x);
-//            a[y][x].push_front(x);
-//        }
-//    }
-//
-//    int tmp;
-//    // sorting array
-//    for(int y = 0; y < ROWS; y++)
-//    {
-//        for(int x = 0; x < SIZE; x++)
-//        {
-//            for(int j = 0; j < SIZE; j++)
-//            {
-//                if(a[y][x].getData() > a[y][j].getData())
-//                {
-//                    tmp = a[y][x].getData();
-//                    a[y][x].setData(a[y][j].getData());
-//                    a[y][j].setData(tmp);
-//                }
-//            }
-//        }
+//        myList[x].push_front(rand() % 100);
+//        myList[x].push_front(rand() % 100);
+//        myList[x].push_front(rand() % 100);
+//        myList[x].push_front(rand() % 100);
+//        myList[x].push_front(rand() % 100);
 //    }
 //    
-//    // Display Data
-//    for(int y = 0; y < ROWS; y++)
+//    cout << "\nBefore sorting values!" << endl;
+//    cout << "======================" << endl;
+//    
+//    for(int x = 0; x < SIZE; x++)
 //    {
-//        for(int x = 0; x < SIZE; x++)
+//        cout << "list[" << x << "]: ";
+//        for (list<int>::iterator it = myList[x].begin(); it != myList[x].end(); ++it)
 //        {
-//            while (!a[y][x].empty())
-//            {
-//                cout << a[y][x].pop_front() << ' ';
-//            }
-//            cout << endl;
+//            cout << *it << " ";
 //        }
-//        cout << endl;
+//        cout << "" << endl;
 //    }
-    
+//    
+//    cout << "\nAfter sorting values!" << endl;
+//    cout << "=====================" << endl;
+//    
+//    for(int x = 0; x < SIZE; x++)
+//    {
+//        myList[x].sort();
+//    }
+//    
+//    for(int x = 0; x < SIZE; x++)
+//    {
+//        cout << "list[" << x << "]: ";
+//        for (list<int>::iterator it = myList[x].begin(); it != myList[x].end(); ++it)
+//        {
+//            cout << *it << " ";
+//        }
+//        cout << "" << endl;
+//    }
+
     return 0;
 }
